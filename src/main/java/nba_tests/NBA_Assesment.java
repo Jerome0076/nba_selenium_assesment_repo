@@ -78,6 +78,8 @@ public class NBA_Assesment {
 	    {
 	    	System.out.println("Test Failed");
 	    }		
+	    Thread.sleep(3000);
+	    driver.quit();
 	}
 	
 	public void handleAndCloseBanner()
